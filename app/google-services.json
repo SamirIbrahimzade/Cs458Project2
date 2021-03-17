@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "563102419251",
+    "project_id": "cs458proj",
+    "storage_bucket": "cs458proj.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:563102419251:android:77137418d1c65bb67f9646",
+        "android_client_info": {
+          "package_name": "android.example.vaccinesurvey"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "563102419251-prllfebd9ngsu8l9m2jl0r94qn7k85md.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "android.example.vaccinesurvey",
+            "certificate_hash": "fac85f075adaaa7aad9306e7f82bf167adc64261"
+          }
+        },
+        {
+          "client_id": "563102419251-4lpcii9a4935pv51g8lqj5h1e87re0ou.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1AHIjTlpLssXudP9V63_WCDm8AufOcgM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "563102419251-4lpcii9a4935pv51g8lqj5h1e87re0ou.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

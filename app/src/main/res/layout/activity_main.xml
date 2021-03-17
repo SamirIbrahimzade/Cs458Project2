@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/ic_vaccine"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Covid-19 Vaccine Survey"
+        android:textColor="@color/colorAccent"
+        android:layout_below="@+id/logo"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="30dp"
+        android:textSize="40sp"
+        android:textAlignment="center"
+
+        />
+
+    <Button
+        android:id="@+id/surveyPage"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Take Survey"
+        android:layout_below="@+id/title"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorAccent"
+
+        />
+
+    <Button
+        android:id="@+id/resultsPage"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/surveyPage"
+        android:text="See Results"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/colorAccent"
+        />
+
+
+
+
+
+</RelativeLayout>

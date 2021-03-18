@@ -47,23 +47,53 @@
                 android:textSize="20sp"
                 android:textColor="@color/colorAccent"
                 />
-            <TextView
-                android:id="@+id/bDate"
+            <RelativeLayout
+                android:id="@+id/dateRel"
                 android:layout_width="match_parent"
-                android:layout_height="25dp"
+                android:layout_height="wrap_content"
                 android:layout_below="@+id/bDateText"
-                android:layout_marginTop="5dp"
-                android:layout_centerHorizontal="true"
-                android:text="01 Jan 1980"
-                android:textSize="20sp"
-                />
+                >
+
+                <EditText
+                    android:id="@+id/day"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="date"
+                    android:hint="Day"
+                    android:layout_alignParentStart="true"
+                    />
+                <EditText
+                    android:id="@+id/month"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="date"
+                    android:hint="Month"
+                    android:layout_toEndOf="@+id/day"
+                    android:layout_marginStart="5dp"
+                    />
+                <EditText
+                    android:id="@+id/year"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="date"
+                    android:hint="Year"
+                    android:layout_toEndOf="@+id/month"
+                    android:layout_marginStart="5dp"
+
+                    />
+
+
+            </RelativeLayout>
 
             <TextView
                 android:id="@+id/cityText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="City"
-                android:layout_below="@+id/bDate"
+                android:layout_below="@+id/dateRel"
                 android:layout_marginTop="15dp"
                 android:textSize="20sp"
                 android:textColor="@color/colorAccent"
@@ -142,6 +172,8 @@
                 android:text="Submit"
                 android:layout_marginBottom="50dp"
                 />
+
+
 
 
         </RelativeLayout>

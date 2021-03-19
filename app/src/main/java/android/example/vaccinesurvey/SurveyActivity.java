@@ -59,7 +59,7 @@ public class SurveyActivity extends AppCompatActivity {
 
 
         ArrayAdapter<String> adapterVac = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, arrayVaccines);
-        ArrayAdapter<String> adapterGen = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, arrayGenders);
+        ArrayAdapter<String> adapterGen = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, android.R.id.dropdownOption, arrayGenders);
 
         adapterGen.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         adapterVac.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
